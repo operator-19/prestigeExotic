@@ -390,20 +390,8 @@ body:after {
 .section2 {
   background-image: url('../images/section2Bg.jpg');
   background-attachment: fixed;
+  overflow: scroll;
   background-repeat: no-repeat;
-}
-
-@media only screen
-  and (device-width: 414px)
-  and (device-height: 896px)
-  and (-webkit-device-pixel-ratio: 3)
-  and (orientation: portrait)
-{
-  .section2 {
-  background-image: url('../images/section2Bg.jpg');
-  background-attachment: scroll
-  background-repeat: no-repeat;
-}
 }
 
 
